@@ -12,9 +12,9 @@ int i = 0;
 while (i < 26)
 {
 putchar(letter);
-putchar('\n');
 letter++;
 i++;
 }
+putchar('\n');
 return (0);
 }
