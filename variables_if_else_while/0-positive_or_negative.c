@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <time.h>
 /**
-* main-Runs the print program
-* Description: uses puts to print out a statment
+* main- Print a result
+* Description: Print the results of if a number is positive, negative or zero
 * Return: 0 once printed
 */
 int main(void)
