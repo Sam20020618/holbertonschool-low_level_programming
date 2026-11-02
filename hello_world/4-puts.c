@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* This program uses the puts command to print an output */
+/**
+* main-Runs the print program
+* Description: uses puts to print out a statment
+* Return: 0 once printed
+*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
