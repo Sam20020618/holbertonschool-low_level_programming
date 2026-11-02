@@ -12,7 +12,7 @@ int i = 0;
 
 while (i < 26)
 {
-if (letter != 'q' || letter != 'e')
+if (letter != 'q' && letter != 'e')
 {
 putchar(letter);
 }
