@@ -10,7 +10,7 @@ int num = 0;
 
 while (num < 10)
 {
-putchar(num);
+int putchar(num);
 num++;
 }
 putchar('\n');
