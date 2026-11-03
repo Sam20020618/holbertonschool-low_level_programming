@@ -8,12 +8,12 @@
 
 void print_alphabet_x10(void)
 {
-char let = 'a';
 int count = 0;
 
 while (count < 10)
 {
 int i = 0;
+char let = 'a';
 while (i < 26)
 {
 _putchar(let);
