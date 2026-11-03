@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints off a-z using _putchar
+ * print_alphabet - prints off a-z using _putchar
  * Description: uses _putchar to print each letter in while
  * Return: Always 0.
  */
