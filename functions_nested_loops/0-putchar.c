@@ -4,7 +4,6 @@
 * Description: uses _putchar to print one letter at a time
 * Return: 0 once printed
 */
-int _putchar(char c);
 
 int main(void)
 {
