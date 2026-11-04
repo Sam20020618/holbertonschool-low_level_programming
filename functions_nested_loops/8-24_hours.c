@@ -11,12 +11,14 @@ int min1;
 min1 = 0;
 int min2;
 min2 = 0;
+int sec1;
+sec1 = 0;
+int sec2;
+sec2 = 0;
 
 while (min1 < 24)
 {
-int sec1;
 sec = 0;
-int sec2;
 sec2 = 0;
 while (sec1 < 60)
 {
