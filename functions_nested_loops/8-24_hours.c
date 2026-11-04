@@ -18,7 +18,7 @@ sec2 = 0;
 
 while (min1 < 24)
 {
-sec = 0;
+sec1 = 0;
 sec2 = 0;
 while (sec1 < 60)
 {
@@ -31,7 +31,7 @@ _putchar('0' + min1);
 _putchar('0' + min2);
 _putchar(':');
 _putchar('0' + sec1);
-_putchar('0') + sec2);
+_putchar('0' + sec2);
 _putchar('\n');
 sec2++;
 }
@@ -42,5 +42,5 @@ min1++;
 min2 = 0;
 }
 }
-return (0);
+
 }
