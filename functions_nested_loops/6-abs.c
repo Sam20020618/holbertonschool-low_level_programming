@@ -1,9 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _abs - tells the absolute value 
- * Description: uses an if statment to make - into +
+ * _abs - tells the absolute value of an integer 
  * @n: The number to check
  * Return: returns n
  */
