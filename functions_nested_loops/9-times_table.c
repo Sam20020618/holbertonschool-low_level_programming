@@ -20,9 +20,18 @@ while (num  < 10)
 while (times < 10)
 {
 answer = num *times;
+if (answer >= 10)
+{
+_putchar('0' + answer / 10);
+_putchar('0' + answer % 10);
+_putchar(',');
+_putchar(' ');
+} else
+{
 _putchar('0' + answer);
 _putchar(',');
 _putchar(' ');
+}
 times++;
 }
 times = 0;
