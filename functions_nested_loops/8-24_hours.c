@@ -1,47 +1,32 @@
 #include "main.h"
 
 /**
- * jack_bauer - tells the absolute value of an integer
+ * jack_bauer - prints every min of the day
  * Return: returns n
  */
 
 void jack_bauer(void)
 {
-int min1;
-int min2;
-int sec1;
-int sec2;
- 
-min1 = 0;
-min2 = 0;
-sec1 = 0;
-sec2 = 0;
+int min;
+int hour;
 
-while (min1 < 24)
+min = 0;
+hour = 0;
+
+while (hour < 24)
 {
-sec1 = 0;
-sec2 = 0;
-while (sec1 < 60)
+while (min < 60)
 {
-if (sec2 < 10)
-{
-sec1++;
-sec2 = 0;
-}
-_putchar('0' + min1);
-_putchar('0' + min2);
+_putchar('0' + (hour / 10));
+_putchar('0' + (hour % 10));
 _putchar(':');
-_putchar('0' + sec1);
-_putchar('0' + sec2);
+_putchar('0' + (minute / 10));
+_putchar('0' + (minute % 10));
 _putchar('\n');
-sec2++;
+min++;
 }
-min2++;
-if (min2 < 10)
-{
-min1++;
-min2 = 0;
-}
+hour++;
+min = 0;
 }
 
 }
