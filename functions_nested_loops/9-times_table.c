@@ -24,21 +24,20 @@ if (answer >= 10)
 {
 _putchar('0' + answer / 10);
 _putchar('0' + answer % 10);
-} else
+}
+else
 {
+_putchar(' ');
 _putchar('0' + answer);
 }
 
 if (times == 9)
 {
 _putchar(' ');
-} else
+}
+else
 {
 _putchar(',');
-_putchar(' ');
-}
-if (answer < 10 && answer !=0)
-{
 _putchar(' ');
 }
 times++;
