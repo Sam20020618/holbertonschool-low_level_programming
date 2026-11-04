@@ -37,6 +37,10 @@ _putchar(' ');
 _putchar(',');
 _putchar(' ');
 }
+if (answer < 10)
+{
+_putchar(' ');
+}
 times++;
 }
 times = 0;
