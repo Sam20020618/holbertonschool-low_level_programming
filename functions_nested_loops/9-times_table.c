@@ -24,11 +24,16 @@ if (answer >= 10)
 {
 _putchar('0' + answer / 10);
 _putchar('0' + answer % 10);
-_putchar(',');
-_putchar(' ');
 } else
 {
 _putchar('0' + answer);
+}
+
+if (num == 9)
+{
+_putchar(' ');
+} else
+{
 _putchar(',');
 _putchar(' ');
 }
