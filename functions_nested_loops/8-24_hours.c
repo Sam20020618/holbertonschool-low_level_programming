@@ -20,8 +20,8 @@ while (min < 60)
 _putchar('0' + (hour / 10));
 _putchar('0' + (hour % 10));
 _putchar(':');
-_putchar('0' + (minute / 10));
-_putchar('0' + (minute % 10));
+_putchar('0' + (min / 10));
+_putchar('0' + (min % 10));
 _putchar('\n');
 min++;
 }
