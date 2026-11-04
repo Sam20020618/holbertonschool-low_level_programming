@@ -18,6 +18,7 @@ times = 0;
 while (num < 10)
 {
 while (times < 10)
+{
 answer = num *times;
 if (times == 0)
 {
