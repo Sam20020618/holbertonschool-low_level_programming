@@ -12,24 +12,21 @@ int times;
 int answer;
 
 num = 0;
+while (num < 10)
+{
 times = 0;
-answer = 0;
-
-while (num  < 10)
-{
 while (times < 10)
-{
 answer = num *times;
-if (answer >= 10)
+if (times == 0)
+{
+_putchar('0' + answer);
+}
+else if (answer >= 10)
 {
 _putchar(',');
 _putchar(' ');
-_putchar('0' + answer / 10);
-_putchar('0' + answer % 10);
-}
-else if (answer == 0 || times == 0)
-{
-_putchar('0' + answer);
+_putchar('0' + (answer / 10));
+_putchar('0' + (answer % 10));
 }
 else
 {
@@ -43,5 +40,4 @@ times++;
 times = 0;
 num++;
 _putchar('\n');
-}
 }
