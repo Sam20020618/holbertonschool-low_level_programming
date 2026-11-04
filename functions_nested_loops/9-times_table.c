@@ -12,9 +12,11 @@ int times;
 int answer;
 
 num = 0;
+answer = 0;
+times = 0;
+
 while (num < 10)
 {
-times = 0;
 while (times < 10)
 answer = num *times;
 if (times == 0)
