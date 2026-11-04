@@ -29,7 +29,7 @@ _putchar('0' + answer % 10);
 _putchar('0' + answer);
 }
 
-if (num == 9)
+if (num == 9 && answer % 9 != 0 && times != 9)
 {
 _putchar(' ');
 } else
