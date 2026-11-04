@@ -37,7 +37,7 @@ _putchar(' ');
 _putchar(',');
 _putchar(' ');
 }
-if (answer < 10)
+if (answer < 10 && answer !=0)
 {
 _putchar(' ');
 }
