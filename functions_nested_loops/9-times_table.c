@@ -25,6 +25,10 @@ if (answer >= 10)
 _putchar('0' + answer / 10);
 _putchar('0' + answer % 10);
 }
+ else if (answer == 0)
+{
+_putchar('0' + answer);
+}
 else
 {
 _putchar(' ');
