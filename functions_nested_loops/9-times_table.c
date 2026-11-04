@@ -23,19 +23,19 @@ answer = num *times;
 if (answer >= 10)
 {
 _putchar(',');
-_putchar(' ');  
+_putchar(' ');
 _putchar('0' + answer / 10);
 _putchar('0' + answer % 10);
 }
-else if (answer == 0)
+else if (answer == 0 || times == 0)
 {
 _putchar('0' + answer);
 }
 else
 {
-_putchar(',');  
+_putchar(',');
 _putchar(' ');
-_putchar(' '); 
+_putchar(' ');
 _putchar('0' + answer);
 }
 times++;
