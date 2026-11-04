@@ -8,12 +8,13 @@
 void jack_bauer(void)
 {
 int min1;
-min1 = 0;
 int min2;
-min2 = 0;
 int sec1;
-sec1 = 0;
 int sec2;
+ 
+min1 = 0;
+min2 = 0;
+sec1 = 0;
 sec2 = 0;
 
 while (min1 < 24)
