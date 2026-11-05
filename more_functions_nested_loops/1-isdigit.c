@@ -11,12 +11,12 @@ int _isdigit(int c)
 int num;
 int cNum;
 
- cNum = c - '0';
+cNum = c - '0';
 num = 0;
 
 while (num < 10)
 {
-if (c == num)
+if (cNum == num)
 {
 return (1);
 }
