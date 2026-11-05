@@ -17,6 +17,7 @@ if (c == num)
 {
 return (1);
 }
+num++;
 }
 return (0);
 }
