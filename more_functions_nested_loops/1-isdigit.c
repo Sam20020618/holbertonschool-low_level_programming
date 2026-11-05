@@ -9,6 +9,9 @@
 int _isdigit(int c)
 {
 int num;
+int cNum;
+
+ cNum = c - '0';
 num = 0;
 
 while (num < 10)
@@ -19,5 +22,6 @@ return (1);
 }
 num++;
 }
+
 return (0);
 }
