@@ -24,9 +24,10 @@ _putchar(' ');
 spaceNum++;
 }
 _putchar('\\');
+_putchar('\n');
 count++;
 space++;
 spaceNum = 0;
 }
-_putchar('\n');
+
 }
