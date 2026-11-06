@@ -11,7 +11,7 @@ int count;
 
 count = 1;
 
-while (count < 100)
+while (count <= 100)
 {
 if (count % 3 == 0 && count % 5 == 0)
 {
