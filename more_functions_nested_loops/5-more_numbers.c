@@ -12,7 +12,7 @@ int finalCount;
  
 count = 0;
 finalCount = 0;
-while (finalCount <= 10)
+while (finalCount < 10)
 {
 while (count < 15)
 {
