@@ -25,5 +25,6 @@ count++;
 }
 _putchar('\n');
 finalCount++;
+ count = 0;
 }
 }
