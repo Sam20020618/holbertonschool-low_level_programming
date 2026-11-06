@@ -30,10 +30,7 @@ else
 printf("%d", count);
 }
 count++;
-if (count != 100)
-{
 putchar(' ');
-}
 }
 putchar('\n');
 return (0);
