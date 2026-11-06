@@ -24,5 +24,6 @@ _putchar('0' + count % 10);
 count++;
 }
 _putchar('\n');
+finalCount++;
 }
 }
