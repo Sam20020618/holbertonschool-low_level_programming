@@ -16,7 +16,7 @@ count = 0;
 space = 0;
 spaceNum = 0;
 
-while (count < n)
+while (count < n && count > -1)
 {
 while (spaceNum < space)
 {
@@ -29,5 +29,8 @@ count++;
 space++;
 spaceNum = 0;
 }
-
+if (count == 0)
+{
+_putchar('\n');  
+}
 }
