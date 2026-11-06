@@ -31,6 +31,6 @@ spaceNum = 0;
 }
 if (count == 0)
 {
-_putchar('\n');  
+  _putchar('\n');
 }
 }
