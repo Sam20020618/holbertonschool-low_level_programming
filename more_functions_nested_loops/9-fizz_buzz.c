@@ -5,7 +5,7 @@
 * Return: 0 once printed
 */
 
-void main(void)
+int main(void)
 {
 int count;
 
@@ -33,4 +33,5 @@ count++;
 putchar(' ');
 }
 putchar('\n');
+return (0);
 }
