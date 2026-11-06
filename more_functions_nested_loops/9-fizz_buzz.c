@@ -29,11 +29,11 @@ else
 {
 printf("%d", count);
 }
-count++;
 if (count < 100)
 {
 putchar(' ');
 }
+count++;
 }
 putchar('\n');
 return (0);
