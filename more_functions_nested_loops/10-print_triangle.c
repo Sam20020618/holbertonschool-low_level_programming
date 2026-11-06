@@ -32,7 +32,7 @@ while (hasAmount < hasCount)
 _putchar('#');
 hasAmount++;
 }
-putchar('\n');
+_putchar('\n');
 count++;
 space--;
 spaceNum = 1;
