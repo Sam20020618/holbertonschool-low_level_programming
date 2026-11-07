@@ -17,6 +17,7 @@ printf("Choice : %d \n", n);
 if(n == 0)
 {
 printf("Bye!");
-return (0);
 }
+
+return (0); 
 }
