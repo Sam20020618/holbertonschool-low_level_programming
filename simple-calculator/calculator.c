@@ -11,7 +11,7 @@ printf("3) Multiply \n");
 printf("4) Divide \n");
 printf("0) Quit \n");
 scanf("%d", &n);
-printf("Choice : %n \n", n);
+printf("Choice : %d \n", n);
 
 
 if(n == 0)
