@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts2 - prints a string for each other letter
+ * puts2 - prints a string for each other letter
  * description : Print every second letter of a string
  * @str: The string of letters
  * Return: returns nothing
