@@ -13,7 +13,7 @@ int i;
 char *hold;
 
 i = 0;
-hold = dest
+hold = dest;
 
 while (i < n && *dest != '\0')
 {
