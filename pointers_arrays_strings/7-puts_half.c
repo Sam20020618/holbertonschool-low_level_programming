@@ -24,7 +24,7 @@ half = count / 2;
 str -= count;
 while (*str != '\0')
 {
-if (i > half)
+if (i >= half)
 {
 _putchar(*str);
 }
