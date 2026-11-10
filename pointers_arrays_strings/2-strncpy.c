@@ -15,7 +15,7 @@ char *hold;
 i = 0;
 hold = dest;
 
-while (i < n && *dest != '\0')
+while (i < n && *dest != '\0' && *src != '\0')
 {
 *dest = *src;
 dest++;
