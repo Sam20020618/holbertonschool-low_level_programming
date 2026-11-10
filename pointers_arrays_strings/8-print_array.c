@@ -13,8 +13,9 @@ int i;
 i = 0;
 while (i < n)
 {
-printf("%d\n", *a);
+printf("%d", *a);
 a++;
 i++;
 }
+printf("\n");
 }
