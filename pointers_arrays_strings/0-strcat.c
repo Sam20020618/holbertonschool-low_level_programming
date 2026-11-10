@@ -3,7 +3,7 @@
 * _strcat - put two string together
 * @dest: The array
 * @src: The array
-* Return : dest
+* Return: a pointer to the destination string dest
 */
 
 char *_strcat(char *dest, char *src)
