@@ -13,8 +13,8 @@ int i;
 i = 1;
 while (i < n)
 {
+printf("%d\n", *a);
 a++;
 i++;
 }
-printf("%d\n", *a);
 }
