@@ -10,7 +10,7 @@ void rev_string(char *s)
 {
 char *c;
 c = s;
-while (c != '\0')
+while (*c != '\0')
 {
 c++;
 }
