@@ -27,7 +27,7 @@ set *= -1;
 else if (s[i] >= '0' && s[i] <= '9')
 {
 counted = 1;
-count = count * 10 + (s[i] - '0');
+count = count * 10 - (s[i] - '0');
 }
 else if (counted)
 {
@@ -38,7 +38,7 @@ i++;
 
 if (set == -1)
 {
-return (-count);
-}
 return (count);
+}
+return (-count);
 }
