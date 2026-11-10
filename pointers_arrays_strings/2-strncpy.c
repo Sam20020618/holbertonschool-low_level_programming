@@ -23,5 +23,10 @@ src++;
 i++;
 }
 
+while (i < n)
+{
+*dest = '\0';
+}
+
 return (hold);
 }
