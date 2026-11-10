@@ -14,6 +14,7 @@ i = 0;
 while (i < n)
 {
 a++;
+i++;
 }
- printf("%d\n", *a);
+printf("%d\n", *a);
 }
