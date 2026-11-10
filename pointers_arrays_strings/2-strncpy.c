@@ -22,6 +22,6 @@ dest++;
 src++;
 i++;
 }
-*dest = '\0';
+
 return (hold);
 }
