@@ -20,7 +20,7 @@ while (*str != '\0')
 count++;
 str++;
 }
-half = count / 2;
+half = (count + 1) / 2;
 str -= count;
 while (*str != '\0')
 {
