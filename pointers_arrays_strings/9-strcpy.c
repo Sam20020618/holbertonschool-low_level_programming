@@ -2,7 +2,8 @@
 
 /**
  * *_strcpy - write src into dest
- * @dest, src: Both arrays 
+ * @dest: both arrays
+ * @src: Both arrays
  * Return: returns nothing
  */
 
