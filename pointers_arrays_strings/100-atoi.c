@@ -2,7 +2,7 @@
 
 /**
  * *_atoi - prints only number
- * @s, src: The array
+ * @s: The array
  * Return: returns 0
  */
 
@@ -26,9 +26,9 @@ else if (s[i] >= '0' && s[i] <= '9')
 {
 count = count * 10 + (s[i] - '0');
 }
-else if (!(s[i + 1] >= '0' && s[i + 1] <= '9'))
+else if !(s[i + 1] >= '0' && s[i + 1] <= '9')
 {
-break;
+
 }
 i++;
 }
