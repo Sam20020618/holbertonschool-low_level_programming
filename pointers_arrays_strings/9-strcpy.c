@@ -15,4 +15,5 @@ src++;
 dest++;
 }
 *dest = *src;
+ return (dest);
 }
