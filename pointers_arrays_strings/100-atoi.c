@@ -10,9 +10,11 @@ int _atoi(char *s)
 {
 int set;
 int count;
+int i;
 
 set = 1;
 count = 0;
+i = 0;
 
 while (s[i] != '\0')
 {
@@ -24,7 +26,9 @@ if (s[i] >= '0' && s[i] <= '9')
 {
 count = count * 10 + (s[i] - '0');
 }
+i++;
 }
+
 if (set == -1)
 {
 return (-count);
