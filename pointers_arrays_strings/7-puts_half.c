@@ -26,7 +26,7 @@ while (*str != '\0')
 {
 if (i > count)
 {
-_putchar(str);
+_putchar(*str);
 }
 i++;
 str++;
