@@ -9,20 +9,20 @@ char *cap_string(char *str)
 {
   int i;
   i = 0;
-while (hold[i] != '\0')
+while (str[i] != '\0')
 {
-if (hold[i] >= 'a' && hold[i] <= 'z')
+if (str[i] >= 'a' && str[i] <= 'z')
 {
-if (hold[i - 1] >= 'a' && hold[i - 1] <= 'z')
+if (str[i - 1] >= 'a' && str[i - 1] <= 'z')
 {
 
 }
 else
 {
-*hold = *hold - 32;
+str[i] = str[i] - 32;
 }
 } 
-hold++;
+i++;
 }
 return (str);
 }
