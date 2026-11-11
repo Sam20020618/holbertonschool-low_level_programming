@@ -1,19 +1,19 @@
 #include "main.h"
 /**
 * *string_toupper - change lower case to cap
-* @char: The array
+* @str: The array
 * Return: No return
 */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 int i;
 i = 0;
-while (*char != '\0')
+while (*str != '\0')
 {
-if (char[i] >= 'a' && char[i] <= 'z')
+if (str[i] >= 'a' && str[i] <= 'z')
 {
-char[i] = char[i] - 32;
+str[i] = str[i] - 32;
 }
 i++;
 }
