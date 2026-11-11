@@ -7,14 +7,21 @@
 
 char *cap_string(char *str)
 {
-char *hold;
-hold = str;
-while (*hold != '\0')
+  int i;
+  i = 0;
+while (hold[i] != '\0')
 {
-if (*hold >= 'a' && *hold <= 'z' && *hold - 1 !< 'a' && *hold - 1 !< 'z')
+if (hold[i] >= 'a' && hold[i] <= 'z')
+{
+if (hold[i - 1] >= 'a' && hold[i - 1] <= 'z')
+{
+
+}
+else
 {
 *hold = *hold - 32;
 }
+} 
 hold++;
 }
 return (str);
