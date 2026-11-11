@@ -13,7 +13,7 @@ while (str[i] != '\0')
 {
 if (str[i] >= 'a' && str[i] <= 'z')
 {
-if (i == 0 || str[i] == ' ' || str[i] == ',' || str[i] == '\n'
+if (i == 0 || str[i] == ' ' || str[i] == ',' || str[i] == '\n')
 str[i] = str[i] - 32;
 } 
 i++;
