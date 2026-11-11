@@ -7,15 +7,15 @@
 
 char *string_toupper(char *str)
 {
-int i;
-i = 0;
-while (*str != '\0')
+char *hold;
+hold = str;
+while (*hold != '\0')
 {
-if (str[i] >= 'a' && str[i] <= 'z')
+if (*hold >= 'a' && *hold <= 'z')
 {
-str[i] = str[i] - 32;
+*hold = *hold - 32;
 }
-i++;
+hold++;
 }
 return (str);
 }
