@@ -16,7 +16,7 @@ while (n > 0)
 {
 *hold = b;
 n--;
- hold++;
+hold++;
 }
 return (s);
 }
