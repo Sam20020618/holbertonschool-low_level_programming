@@ -13,14 +13,8 @@ while (str[i] != '\0')
 {
 if (str[i] >= 'a' && str[i] <= 'z')
 {
-if (str[i - 1] >= 'a' && str[i - 1] <= 'z' && str[i - 1] >= 'A' && str[i - 1] <= 'Z')
-{
-
-}
-else
-{
+if (i == 0 || str[i] == ' ' || str[i] == ',' || str[i] == '\n'
 str[i] = str[i] - 32;
-}
 } 
 i++;
 }
