@@ -23,6 +23,7 @@ count++;
 j++;
 if (needle[j] == '\0')
 {
+haystack -= count;
 break;
 }
 }
@@ -31,7 +32,7 @@ if (compare == count)
 count = 0;
 j = 0;
 }
- compare = count;
+compare = count;
 haystack++;
 }
 if (count > 0)
