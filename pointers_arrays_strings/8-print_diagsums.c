@@ -43,5 +43,5 @@ count_left++;
 count_right--;
 }
 }
- printf("%d, %d\n", sum1, sum2);
+printf("%d, %d\n", sum1, sum2);
 }
