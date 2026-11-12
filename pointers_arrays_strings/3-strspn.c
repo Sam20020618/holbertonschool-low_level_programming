@@ -13,12 +13,12 @@ int j;
 int count;
 int set;
 i = 0;
-j = 0;
 count = 0;
 set = 0;
 
 while (s[i] != '\0')
 {
+j = 0;
 while (accept[j] != '\0')
 {
 if (s[i] == accept[j])
