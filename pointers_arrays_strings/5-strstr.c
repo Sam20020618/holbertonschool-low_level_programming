@@ -22,7 +22,7 @@ if (*haystack == needle[j])
 count++;
 j++;
 }
-if (comapre == count)
+if (compare == count)
 {
 count = 0;
 j = 0;
