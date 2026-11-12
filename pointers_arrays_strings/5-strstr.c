@@ -15,6 +15,10 @@ count = 0;
 compare = 0;
 j = 0;
 
+if (needle == '\0')
+{
+return (haystack);
+}
 while (*haystack != '\0')
 {
 if (*haystack == needle[j])
