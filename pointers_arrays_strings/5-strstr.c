@@ -27,7 +27,7 @@ if (compare == count)
 count = 0;
 j = 0;
 }
-compare = count
+ compare = count;
 haystack++;
 }
 if (count > 0)
