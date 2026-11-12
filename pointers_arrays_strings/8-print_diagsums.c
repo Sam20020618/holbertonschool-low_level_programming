@@ -43,6 +43,5 @@ count_left++;
 count_right--;
 }
 }
-printf("%d, ", sum1);
-printf("%d", sum2);
+printf("%d, %d/n", sum1);
 }
