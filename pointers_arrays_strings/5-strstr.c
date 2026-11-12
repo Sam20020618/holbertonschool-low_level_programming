@@ -23,7 +23,7 @@ count++;
 j++;
 if (needle[j] == '\0')
 {
-haystack -= count;
+haystack -= count - 1;
 break;
 }
 }
