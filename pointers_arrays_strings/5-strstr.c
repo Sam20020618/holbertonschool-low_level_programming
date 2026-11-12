@@ -21,6 +21,10 @@ if (*haystack == needle[j])
 {
 count++;
 j++;
+if (needle[j] == '\0')
+{
+break;
+}
 }
 if (compare == count)
 {
