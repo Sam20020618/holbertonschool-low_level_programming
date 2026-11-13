@@ -16,12 +16,7 @@ int invalid;
 result = 0;
 quit = 0;
 
-printf("Simple Calculator \n");
-printf("1) Add \n");
-printf("2) subtract \n");
-printf("3) Multiply \n");
-printf("4) Divide \n");
-printf("0) Quit \n");
+printf("Simple Calculator\n 1) Add\n 2) subtract\n 3) Multiply\n 4) Divide\n 0) Quit\n");
 
 while (quit < 1)
 {
@@ -31,7 +26,7 @@ printf("Choice: %d \n", n);
 
 if (n == 0)
 {
-printf("Bye!");
+printf("Bye!\n");
 quit++;
 } 
 else if (n > 4)
@@ -72,7 +67,7 @@ result = a / b;
 }
 } 
 
-if(invalid == 0 && quit == 0)
+if (invalid == 0 && quit == 0)
 {
 printf("Result: %.1f \n", result);
 }
