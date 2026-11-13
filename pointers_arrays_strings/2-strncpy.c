@@ -27,6 +27,7 @@ while (i < n)
 {
 *dest = '\0';
 i++;
+dest++;
 }
 
 return (hold);
