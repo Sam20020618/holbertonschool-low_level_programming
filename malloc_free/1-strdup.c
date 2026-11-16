@@ -23,7 +23,12 @@ while (str[size] != '\0')
 {
 size++;
 }
-ar = malloc(size *sizeof(char));
+ar = malloc(size *sizeof(char) + 1);
+
+if( ar == NULL)
+{
+return (NULL);
+}
 
 while (i < size)
 {
