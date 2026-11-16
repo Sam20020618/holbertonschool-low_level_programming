@@ -54,5 +54,5 @@ while (s2[j] != '\0')
 ar[size1 + j] = s2[j];
 j++;
 }
-ar[size + j] = '\0';
-return (ar);
+ar[size1 + j] = '\0';
+return(ar);
