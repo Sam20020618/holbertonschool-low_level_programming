@@ -34,7 +34,7 @@ if (ar == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < siz1; i++;)
+for (i = 0; i < size1; i++)
 {
 ar[i] = s1[i];
 }
