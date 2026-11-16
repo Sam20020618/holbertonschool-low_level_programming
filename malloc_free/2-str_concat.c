@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+11;rgb:2b2b/2b2b/2b2b/**
 * *str_concat - create an array of two char together
 * @s1: An array of char
 * @s2: An array of char
@@ -56,3 +56,4 @@ j++;
 }
 ar[size1 + j] = '\0';
 return (ar);
+}
