@@ -9,26 +9,22 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 unsigned int i;
-unsigned int j;
-void ar[nmemb];
+char *ar;
 
 if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
 
-for (i = 0; i < nmemb; i++)
+ar = malloc(nmemb * size);
+if (ar == NULL)
 {
-ar[i] = malloc(size);
-if (ar[i] == NULL)
-{
-for (j = 0; j < i; j++)
-{
-free(ar[j]);
-}
-free(ar);
 return (NULL);
 }
+for (i = 0; i < nmemb * size; i++)
+{
+ar[i] = 0;
 }
+
 return (ar);
 }
