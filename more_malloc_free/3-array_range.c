@@ -20,11 +20,16 @@ if (ar == NULL)
 {
 return (NULL);
 }
+if (min == max)
+{
+ar[0] = min;
+}
 
-for (i = 0; min < max + 1; i++)
+for (i = 0; min < max; i++)
 {
 ar[i] = min;
 min++;
 }
+
 return (ar);
 }
