@@ -55,4 +55,4 @@ ar[size1 + j] = s2[j];
 j++;
 }
 ar[size1 + j] = '\0';
-return(ar);
+return (ar);
