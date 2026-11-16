@@ -21,7 +21,7 @@ if (ar == NULL)
 return (NULL);
 }
 
-for (i = 0; min < max; i++)
+for (i = 0; min < max + 1; i++)
 {
 ar[i] = min;
 min++;
