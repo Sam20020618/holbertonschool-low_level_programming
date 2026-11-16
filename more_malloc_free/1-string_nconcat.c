@@ -26,7 +26,7 @@ while (s1[size] != '\0')
 {
 size++;
 }
-ar = malloc((size + n) *sizeof(char) + 1);
+ar = malloc((size + n) * sizeof(char) + 1);
 if (ar == NULL)
 {
 return (NULL);
