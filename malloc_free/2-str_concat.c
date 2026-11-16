@@ -10,47 +10,49 @@ char *str_concat(char *s1, char *s2)
 {
 int i;
 int j;
-int size;
+int size1;
+int size2;
 char *ar;
 
 i = 0;
 j = 0;
-size = 0;
+size1 = 0;
+size2 = 0;
 
-while (s1[i] != '\0' && s2[j] != '\0')
+if (s1 == NULL)
 {
-if (s1[i] == '\0')
-{
-j++;
+s1 = "";
 }
-else
+if (s2 == NULL)
 {
+s2 = "";
+}
+while (s1[i] != '\0')
+{
+size1++;
 i++;
 }
-size++;
+while (s2[j] != '\0')
+{
+size2++;
+j++;
 }
-
-ar = malloc(size *sizeof(char) + 1);
+ar = malloc((size1 + size2) *sizeof(char) + 1);
 if (ar == NULL)
 {
 return (NULL);
 }
-
 i = 0;
 j = 0;
-while (i  < size)
-{
-if (s1[i] == '\0')
-{
-ar[i] = s2[j];
-j++;
-}
-else
+while (s1[i] != '\0')
 {
 ar[i] = s1[i];
-}
 i++;
 }
-ar[i] = '\0';
-return (ar);
+while (s2[j] != '\0')
+{
+ar[size1 + j] = s2[j];
+j++;
 }
+ar[size + j] = '\0';
+return (ar);
