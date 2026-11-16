@@ -25,7 +25,7 @@ size++;
 }
 ar = malloc(size *sizeof(char) + 1);
 
-if( ar == NULL)
+if ( ar == NULL)
 {
 return (NULL);
 }
