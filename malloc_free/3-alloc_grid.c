@@ -2,7 +2,7 @@
 /**
 * **alloc_grid - making a grid
 * @width: the width of the grind
-* @hight: the hight of the grid
+* @height: the hight of the grid
 * Return: ar
 */
 
@@ -26,6 +26,7 @@ for (i = 0; i < height; i++)
 ar[i] = malloc(width * sizeof(int));
 if (ar[i] == NULL)
 {
+free(ar);
 return (NULL);
 }
 for (j = 0; j < width; j++)
