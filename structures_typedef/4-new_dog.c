@@ -21,7 +21,7 @@ return (i);
 * _copy - copy the data into the memory
 * @dest: an array of char
 * @src: an array of char
-* return: dest
+* Return: dest
 */
 
 char *_copy(char *dest, char *src)
