@@ -5,6 +5,15 @@
 * @age: The dog age
 * @owner: The dog owner
 * Return: dog
+*
+* len - Count the length of string
+* @s: An Array of char
+* Return: i
+*
+* _copy - copy the data into the memory
+* @dest: an array of char
+* @src: an array of char
+* return: dest
 */
 
 int len(char *s)
@@ -16,6 +25,18 @@ while (s[i] != '\0')
 i++;
 }
 return (i);
+}
+
+char *_copy(char *dest, char *src)
+{
+int i;
+i = 0;
+while (src[i] != '\o')
+{
+dest[i] = src[i];
+}
+dest[i] = '\0';
+return (dest);
 }
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -45,7 +66,8 @@ free(dog->name);
 free(dog);
 return (NULL);
 }
+_copy(dog->name, name);
 dog->age = age;
-
+_copy(dog->owner, owner);
 return (dog);
 }
