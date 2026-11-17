@@ -7,6 +7,17 @@
 * Return: dog
 */
 
+int len(char *s)
+{
+int i;
+i = 0;
+while (s[i] != '\0')
+{
+i++;
+}
+return (i);
+}
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *dog;
@@ -37,16 +48,4 @@ return (NULL);
 dog->age = age;
 
 return (dog);
-}
-
-
-int len(char *s)
-{
-int i;
-i = 0;
-while (s[i] != '\0');
-{
-i++;
-}
-return (i);
 }
