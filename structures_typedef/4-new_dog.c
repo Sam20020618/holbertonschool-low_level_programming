@@ -1,19 +1,9 @@
 #include "dog.h"
+
 /**
-* *new_dog - Making a new dog
-* @name: The dog name
-* @age: The dog age
-* @owner: The dog owner
-* Return: dog
-*
 * len - Count the length of string
 * @s: An Array of char
 * Return: i
-*
-* _copy - copy the data into the memory
-* @dest: an array of char
-* @src: an array of char
-* return: dest
 */
 
 int len(char *s)
@@ -27,6 +17,13 @@ i++;
 return (i);
 }
 
+/**
+* _copy - copy the data into the memory
+* @dest: an array of char
+* @src: an array of char
+* return: dest
+*/
+
 char *_copy(char *dest, char *src)
 {
 int i;
@@ -39,6 +36,14 @@ i++;
 dest[i] = '\0';
 return (dest);
 }
+
+/**
+* *new_dog - Making a new dog
+* @name: The dog name
+* @age: The dog age
+* @owner: The dog owner
+* Return: dog
+*/
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
