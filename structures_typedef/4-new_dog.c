@@ -21,13 +21,13 @@ if (dog == NULL)
 {
 return (NULL);
 }
-dog->name = malloc(len(name) + 1;
+dog->name = malloc(len(name) + 1);
 if (dog->name == NULL)
 {
 free(dog);
 return (NULL);
 }
-dog->owner = malloc(len(owner) + 1;
+dog->owner = malloc(len(owner) + 1);
 if (dog->owner == NULL)
 {
 free(dog->name);
