@@ -2,7 +2,7 @@
 
 /**
  * array_iterator - prints the elements of the array
- * @arry: The array
+ * @array: The array
  * @size: The size of the array
  * @action: The pointer for the function
  *
