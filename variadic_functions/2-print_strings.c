@@ -18,15 +18,15 @@ for (i = 0; i < n; i++)
 {
 if (i == n - 1 || separator == NULL)
 {
-printf("%s", va_arg(ap, char));
+printf("%s", va_arg(ap, char *));
 }
-else if (va_arg(ap, char) == NULL)
+else if (va_arg(ap, char *) == NULL)
 {
 printf("(nil)%s", separator);
 }
 else
 {
-printf("%s%s", va_arg(ap, char), separator);
+printf("%s%s", va_arg(ap, char *), separator);
 }
 }
 printf("\n");
