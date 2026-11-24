@@ -14,11 +14,9 @@ unsigned int i;
 i = 0;
 va_start(ap, n);
 
-if (separator != NULL)
-{
 for (i = 0; i < n; i++)
 {
-if (i == n - 1)
+if (i == n - 1 || separator == NULL)
 {
 printf("%d", va_arg(ap, int));
 }
@@ -28,6 +26,6 @@ printf("%d%s", va_arg(ap, int), separator);
 }
 }
 printf("\n");
-}
+
 va_end(ap);
 }
