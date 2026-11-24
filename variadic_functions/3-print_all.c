@@ -43,7 +43,10 @@ if (str == NULL)
 {
 printf("(nil)");
 }
+else
+{
 printf("%s", str);
+}
 }
 /**
  * print_all - Prints everything
