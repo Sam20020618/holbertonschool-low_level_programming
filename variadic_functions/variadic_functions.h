@@ -1,6 +1,7 @@
 #ifndef VARIADIC_FUNCTION_H
 #define VARIADIC_FUNCTION_H
 
+#include <stdarg.h>
 #include <unistd.h>
 #include <stdio.h>
 
