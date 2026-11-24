@@ -27,7 +27,7 @@ printf("%d", va_arg(ap, int));
  */
 void print_float(va_list ap)
 {
-printf("%d", va_arg(ap, double));
+printf("%f", va_arg(ap, double));
 }
 
 /**
