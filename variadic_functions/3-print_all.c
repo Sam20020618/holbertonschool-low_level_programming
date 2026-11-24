@@ -7,7 +7,7 @@
  */
 void print_char(va_list ap)
 {
-printf("%s", va_ap(ap, char);
+printf("%s", va_arg(ap, char);
 }
 
 /**
@@ -17,7 +17,7 @@ printf("%s", va_ap(ap, char);
  */
 void print_int(va_list ap)
 {
-printf("%d", va_ap, int);
+printf("%d", va_arg(ap, int);
 }
 
 /**
@@ -27,7 +27,7 @@ printf("%d", va_ap, int);
  */
 void print_float(va_list ap)
 {
-printf("%d", va_ap, double);
+printf("%d", va_arg(ap, double);
 }
 
 /**
