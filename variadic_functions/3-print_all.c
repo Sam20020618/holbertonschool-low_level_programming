@@ -69,7 +69,7 @@ space = "";
 
 va_start(ap, format);
 
-while (format[i] != '\0')
+while (format[i] != '\0' && format != NULL)
 {
 j = 0;
 while (types[j] != '\0')
