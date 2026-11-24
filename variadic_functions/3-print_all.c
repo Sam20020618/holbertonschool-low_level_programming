@@ -42,12 +42,11 @@ str = va_arg(ap, char *);
 if (str == NULL)
 {
 printf("(nil)");
+return;
 }
-else
-{
 printf("%s", str);
 }
-}
+
 /**
  * print_all - Prints everything
  * @format: The formate of the vaule
