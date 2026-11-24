@@ -69,7 +69,7 @@ space = "";
 
 va_start(ap, format);
 
-while (format[i] != '\0' && format != NULL)
+while (format != NULL && format[i] != '\0')
 {
 j = 0;
 while (types[j] != '\0')
@@ -85,4 +85,5 @@ j++;
 i++;
 }
 printf("\n");
+va_end(ap);
 }
