@@ -17,7 +17,7 @@ printf("%s", va_arg(ap, char);
  */
 void print_int(va_list ap)
 {
-printf("%d", va_arg(ap, int);
+printf("%d", va_arg(ap, int));
 }
 
 /**
@@ -27,7 +27,7 @@ printf("%d", va_arg(ap, int);
  */
 void print_float(va_list ap)
 {
-printf("%d", va_arg(ap, double);
+printf("%d", va_arg(ap, double));
 }
 
 /**
@@ -56,18 +56,16 @@ void print_all(const char * const format, ...)
 va_list ap;
 int i, j;
 char *space;
-char types[];
-void (*funcs[])(va_list);
-
-i = 0;
-space = "";
-types = {'c', 'i', 'f', 's', '\0'}
-(*funcs[])(va_list) = {
+char types[] = {'c', 'i', 'f', 's', '\0'};
+void (*funcs[])(va_list) = {
 print_char,
 print_int,
 print_float,
 print_string
 };
+
+i = 0;
+space = "";
 
 va_start(ap, format);
 
