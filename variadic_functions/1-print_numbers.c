@@ -1,0 +1,26 @@
+#include "variadic_functions.h"
+
+/**
+ * print_numbers - Print all number with char
+ * @separator: The char between the numbers
+ * @n: The amount of numbers
+ * Return: Nothing
+ */
+
+void print_numbers(const char *separator, const unsigned int n, ...)
+{
+va_list ap;
+unsigned int i;
+i = 0;
+va_start(ap, n);
+
+if (separator != NULL)
+{
+for (i = 0; i < n; i++)
+{
+printf("%d %s", va_arg(ap, int), separator);
+}
+}
+printf("\n");
+va_end(ap);
+}
