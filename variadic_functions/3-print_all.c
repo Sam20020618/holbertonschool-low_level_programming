@@ -7,7 +7,7 @@
  */
 void print_char(va_list ap)
 {
-printf("%s", va_arg(ap, char);
+printf("%c", va_arg(ap, char);
 }
 
 /**
