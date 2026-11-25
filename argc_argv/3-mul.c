@@ -8,8 +8,7 @@
 
 int main(int argc, char **argv)
 {
-int i;
-int result;
+char result;
 result = 0;
 if (argc != 3)
 {
