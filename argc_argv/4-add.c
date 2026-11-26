@@ -18,7 +18,7 @@ for (i = 0; i < argc; i++)
 {
 for (j = 0; argv[i][j] != '\0'; j++)
 {
-if (isdigit(atoi(argv[i][j])) != 0)
+if (!isdigit(argv[i][j]))
 {
 printf("Error\n");
 return (1);
