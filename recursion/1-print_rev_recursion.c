@@ -13,7 +13,7 @@ int check;
 count = 0;
 i = 0;
 check = 0;
-if (*s != '\0' && check == 0;)
+if (*s != '\0' && check == 0)
 {
 count++;
 s++;
