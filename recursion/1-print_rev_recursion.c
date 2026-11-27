@@ -32,7 +32,7 @@ _print_rev_recursion(s)
 }
 if (i == count && i != 0)
 {
-_putchar("\n");
+_putchar('\n');
 return;
 }
 }
