@@ -23,7 +23,7 @@ else
 {
 check++;
 }
-if (i < count && count > 0)
+if (i < count && check > 0)
 {
 s--;
 _putchar(*s);
