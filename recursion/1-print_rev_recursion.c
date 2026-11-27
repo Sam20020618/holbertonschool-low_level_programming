@@ -28,7 +28,7 @@ if (i < count && count > 0)
 s--;
 _putchar(*s);
 i++;
-_print_rev_recursion(s)
+_print_rev_recursion(s);
 }
 if (i == count && i != 0)
 {
