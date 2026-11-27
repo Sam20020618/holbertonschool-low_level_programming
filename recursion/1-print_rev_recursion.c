@@ -7,32 +7,11 @@
 
 void _print_rev_recursion(char *s)
 {
-int count;
-int i;
-int check;
-count = 0;
-i = 0;
-check = 0;
-if (*s != '\0' && check == 0)
+if (*s == '\0')
 {
-count++;
-s++;
-_print_rev_recursion(s);
-}
-else
-{
-check++;
-}
-if (i < count && check > 0)
-{
-s--;
-_putchar(*s);
-i++;
-_print_rev_recursion(s);
-}
-if (i == count && i != 0)
-{
-_putchar('\n');
 return;
 }
+s++;
+_print_rev_recursion(s);
+_putchar(*s);
 }
