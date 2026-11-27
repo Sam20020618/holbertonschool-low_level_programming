@@ -14,4 +14,5 @@ return;
 }
 sum++;
 _print_rev_recursion(s + 1);
+return sum;
 }
